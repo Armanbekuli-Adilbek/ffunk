@@ -1,0 +1,12 @@
+def ending(num,words):
+    num=num%100;
+    if num>19:
+        num=num%10
+    if num==1:
+        return words[0]
+    elif num==2 or num==3 or num==4:
+        return words[1]
+    else:
+        return words[2]
+arr=('год','года','лет')
+print('23',ending(23,arr))

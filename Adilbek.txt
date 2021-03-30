@@ -1,0 +1,7 @@
+def max_num(l):
+ max=l[0]
+ for a in l:
+    if a>max:
+     max=a
+ return max
+print(max_num([1,7,5,9])) 
